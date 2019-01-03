@@ -15,15 +15,14 @@
 # License for the specific language governing permissions and limitations
 # under the License.
 
-from __future__ import absolute_import, division, print_function, \
-    with_statement
+from __future__ import (absolute_import, division, print_function,
+                        with_statement)
 
-import socket
-import struct
-import logging
 import hashlib
 import hmac
-
+import logging
+import socket
+import struct
 
 ONETIMEAUTH_BYTES = 10
 ONETIMEAUTH_CHUNK_BYTES = 12
